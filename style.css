@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: linear-gradient(to top, #ffeafa, #f0e9f7, #fbe3ff);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px; 
+}
+button{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+svg{
+    height: 20px;
+    width: 20px;
+}
+#sound{
+    margin-right: 7px;
+}
+#container{
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    box-shadow: 5px 5px 5px 0 #1A1A1A;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3% 3% 0 3%;
+    margin: 0 auto;
+    overflow: hidden;
+};
+.dic-info{
+    color: #6e6172;
+    display: flex;
+    flex-direction: column;
+
+}
+form{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #6e6172;
+    padding: 5px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+#input{
+    color: #737376;
+    font-family: 'Inter', sans-serif;
+    background: none;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+form button, #search{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px;
+}
+#output{
+    position: relative;
+}
+.general-output{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+#info-output{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    margin: 30px 0;
+    
+}
+.info-output-div::-webkit-scrollbar {
+    width: 1px;
+}
+.info-output-div{
+    overflow-y: scroll;
+    height: 250px;
+    border: 1px solid #6e6172;
+    border-left: 5px solid #6e6172;
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+.info-output-div h3{
+    font-style: italic;
+}
+.info-output-div p{
+    padding: 10px 0;
+    margin: 5px 0;
+}
+.relation-div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.relation-div h3{
+    font-size: 15px;
+}
