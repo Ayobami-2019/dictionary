@@ -21,6 +21,9 @@ svg{
     height: 20px;
     width: 20px;
 }
+h1{
+    color: #514853;
+}
 #sound{
     margin-right: 7px;
 }
@@ -31,7 +34,8 @@ svg{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    padding: 3% 3% 0 3%;
+    width: 500px;
+    /*height: 400px; */
     margin: 0 auto;
     overflow: hidden;
 };
@@ -44,17 +48,20 @@ svg{
 form{
     display: flex;
     flex-direction: row;
-    border: 1px solid #6e6172;
+    /* border: 1px solid #6e6172; */
+    box-shadow: 1px 0px 5px 0 #1A1A1A;
     padding: 5px;
-    border-radius: 10px;
-    margin-bottom: 30px;
+    /* border-radius: 10px; */
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 3% 3% 3% 3%;
 }
 #input{
     color: #737376;
     font-family: 'Inter', sans-serif;
     background: none;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     border: none;
     outline: none;
     width: 100%;
@@ -75,13 +82,15 @@ form button, #search{
     justify-content: space-between;
     width: 100%;
     display: flex;
-    margin: 30px 0;
+    /* margin-top: 30px; */
+    /* border-bottom: 1px solid #6e6172; */
+    padding: 0 3% 0 3%;
 }
 #info-output{
     display: flex;
     flex-direction: column;
     display: flex;
-    margin: 30px 0;
+    margin-top: 20px;
     
 }
 .info-output-div::-webkit-scrollbar {
@@ -90,10 +99,11 @@ form button, #search{
 .info-output-div{
     overflow-y: scroll;
     height: 250px;
-    border: 1px solid #6e6172;
+    border-top: 1px solid #6e6172;
     border-left: 5px solid #6e6172;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 20px 10px;
+    padding: 3% 3% 0 3%;
 }
 .info-output-div h3{
     font-style: italic;
