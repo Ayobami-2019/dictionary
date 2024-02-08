@@ -121,3 +121,25 @@ form button, #search{
 .relation-div h3{
     font-size: 15px;
 }
+input:-internal-autofill-selected {
+    appearance: none !important;
+    background-image: none !important;
+    background: none !important;
+    color: none !important;
+}
+input:focus-visible{
+    background: none !important;
+    appearance: none !important;
+}
+input:focus{
+    background: none !important;
+}
+input:active{
+    background: none !important;
+}
+input:-webkit-autofill{
+    background: none !important;
+}
+input:-internal-autofill-selected {
+    background-color: transparent;
+}
